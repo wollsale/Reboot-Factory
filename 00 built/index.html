@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<head>
+
+<!-- META -->
+        <meta charset="utf-8">
+        <title>Checkerspot</title>
+        <meta name="description" content="">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+        <meta http-equiv="cleartype" content="on">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="">
+		<meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <meta name="msapplication-TileColor" content="#222222">
+<!--END META-->
+        
+<!--LINK-->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+  		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<!--END LINK-->
+
+</head>
+
+<body>
+
+<!--* CONTAINER *-->
+<div id="container">
+
+    <!--CENTRAL PAGE / MAIN-->
+    <div class="centrale-page">
+
+        <!-- * Picture * -->
+        <div class="page" id="page">
+
+            <!--Picture-->
+            <div class="b1"></div>
+
+            <!--Take a picture-->
+            <div class="b2">
+                <div class="button-pict take-pict">
+                    <div class="int-button-pict take-pict"></div>
+                </div>
+                <img src="img/flash-off.svg" alt="flash allumé" class="flash bg-flash take-pict" height="40px" />
+                <img src="img/switch-photo.svg" alt="switch" class="switch take-pict" height="40px" />
+            <div class="line-h1 take-pict"></div>
+            <div class="line-h2 take-pict"></div>
+            <div class="line-v1 take-pict"></div>
+            <div class="line-v2 take-pict"></div>
+                <!--Confirm-->
+                <div class="confirm">
+                <p>Poster la photo ?</p>
+                <img src="img/confirm-y.svg" alt="Confirm yes" class="confirm-icon confirm-icon-y" height="20px" />								
+                <img src="img/confirm-n.svg" alt="Confirm no" class="confirm-icon confirm-icon-n" height="20px" />
+                </div>
+            </div>
+            <!-- End take a picture -->
+
+        </div>
+        <!-- * End picture * -->
+
+
+        <!-- * Post * -->
+        <div class="posts" id="posts">
+
+            <!--write-->
+            <div class="p1">
+                <input type="text" size="25" id="write" value="Write your post here !">
+            </div>
+            <!--end write-->
+
+            <!--current-->
+            <div class="p2">
+                <div class="current-post">
+                    <p>Volont pas là ! :p</p>
+                </div>
+                <div class="new-post">
+                    <p>Lol!</p>
+                </div>  
+                <div class="secret"></div>
+            </div>
+            <!--end current-->
+
+        </div>
+        <!-- * End post * -->
+
+    </div>
+    <!-- END CENTRAL PAGE / MAIN -->
+
+
+
+
+    <!--LOGIN-->
+
+    <!-- * Login Page * -->
+    <div class="login-page">
+
+        <img src="img/logo-checkerspot.svg" alt="Logo Checkerspot" height="50" width="50" />
+
+        <div id="page-wrap">
+            <div id="well">
+                <p>wollsale</p>						
+                <h2><strong id="slider"></strong></h2>
+            </div>
+        </div>
+
+        <p class="tempo">Changer de compte ?</p>
+
+    </div>
+    <!-- * End login page * -->
+
+
+
+    <!--SETTINGS-->
+    <div id="settings">
+
+        <!-- * Settings * -->
+        <div id="banner">
+            <h4>Paramètres</h4>
+
+            <!--Inner-->
+            <ul id="ul-out">
+                <li id="theme">thème</li>
+                    <div id="theme-inner">
+                        <div id="theme1" class="theme-inner-inner"><p>Thème 1</p></div>
+                        <div id="theme2" class="theme-inner-inner"><p>Thème 2</p></div>
+                        <div id="theme3" class="theme-inner-inner"><p>Thème 3</p></div>
+                    </div>    
+            <li id="partage">partage</li>
+                    <div id="partage-inner">
+                        <div id="partage1" class="partage-inner-inner"><p>tw</p></div>
+                        <div id="partage2" class="partage-inner-inner"><p>Fb</p></div>
+                    </div>  
+            <li id="apropos">à propos</li>
+                <div id="apropos-inner">
+                    <div id="apropos1" class="apropos-inner-inner"><p></p></div>
+                    <div id="apropos2" class="apropos-inner-inner"><p></p></div>
+                </div>  
+            </ul>
+            <!--End Inner-->
+
+            <!--Slide-->
+            <div id="slide">
+            <div id="circle"></div>
+            <div id="circle-empty"></div>
+            </div>
+            <!--End slide-->
+
+        </div>
+        <!-- * End settings * -->
+
+    </div>
+    <!--END SETTINGS-->
+
+            <!-- !SETTINGS -->
+            
+</div>
+<!-- * CONTAINER * -->
+
+
+
+<!--SCRIPT-->
+<script type="text/javascript" src="js/zepto.js"></script>
+<script type="text/javascript" src="js/zepto.fx.js"></script>
+<!-- <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+ --><script type="text/javascript" src="js/jquery.hammer.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script><script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js'></script>
+<script src='js/slidetounlock.js'></script>
+<script src='js/settings.js'></script>
+<!--END SCRIPT-->
+
+
+	
+</body>
+
+</html>
